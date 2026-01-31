@@ -7,3 +7,4 @@ chromadb
 docling
 python-dotenv
 pysqlite3-binary
+opencv-python-headless
