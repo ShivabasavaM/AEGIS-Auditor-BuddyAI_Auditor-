@@ -4,6 +4,8 @@ from docling.document_converter import DocumentConverter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+import streamlit as st
+api_key = st.secrets["GEMINI_API_KEY"]
 
 class AegisIngestor:
     def __init__(self, collection_name, api_key):

@@ -11,3 +11,5 @@ temp_*.pdf
 
 # Mac System Files
 .DS_Store
+
+.streamlit/
