@@ -1,6 +1,6 @@
 # 🛡️ Aegis-Audit: Agentic Regulatory Compliance Auditor
 
-**Aegis-Audit** (nicknamed **Buddy**) is a production-ready RAG (Retrieval-Augmented Generation) system designed to bridge the gap between internal corporate policies and evolving global regulations (like the EU AI Act 2026).
+**Aegis-Audit** (nicknamed **Buddy**) is a production-ready RAG (Retrieval-Augmented Generation) system designed to bridge the gap between internal corporate policies and evolving global regulations
 
 ## 🚀 Key Features
 - **Buddy Persona**: A friendly AI assistant that acts as a general chatbot when no documents are present.
@@ -9,7 +9,7 @@
 - **Persistent Memory**: Uses SQLite to maintain stateful chat histories across multiple specialized audit sessions.
 
 ## 🛠️ Tech Stack
-- **LLM**: Google Gemini 1.5 Flash (via `google-generativeai`)
+- **LLM**: Google Gemini 2.5 Flash (via `google-generativeai`)
 - **Parsing**: Docling (Layout-aware document conversion)
 - **Vector DB**: ChromaDB (with session-isolated collections)
 - **Database**: SQLite3 (Persistent chat threads)
